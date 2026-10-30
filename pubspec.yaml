@@ -1,0 +1,17 @@
+name: greenleaf_mobile_preview
+description: GreenLeaf mobile UI preview based on the supplied HTML design. No live services are connected.
+publish_to: none
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.4.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  webview_flutter: ^4.10.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/index.html
